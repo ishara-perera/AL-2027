@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+	color: #f5679a;
+	border: 2px solid brown;
+	background-color: #9a67f5;
+}
+
+div a:hover {
+	font-size: 100px;
+	color: red;
+	text-decoration: none;
+}
+	
+div h1:hover {
+	text-shadow: 2px 2px 3px red;	
+}

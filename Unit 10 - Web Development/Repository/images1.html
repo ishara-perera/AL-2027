@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Images</title>
+
+	<style>
+		.img-container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 10px;
+		}
+
+	
+		.img-container figure {
+			flex: 1 1 calc(50% - 10px);
+			margin: 0;
+		}
+
+		.img-container figure img { 
+			max-width: 100%; 
+			border-radius: 8px; 
+			box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+			display: block;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="img-container">
+		<figure>
+			<img src="images/sunset.jpg" alt="This image is not loaded properly" />
+			<figcaption>This is an image of a sunset in Sydney Lake Australia</figcaption>
+		</figure>
+
+		<figure>
+			<img src="images/forest.jpeg" />
+			<figcaption>This is an image of a forest in Sydney Lake Australia</figcaption>
+		</figure>
+
+		<figure>
+			<img src="images/town.jpg" />
+			<figcaption>This is an image of Sydney town Australia</figcaption>
+		</figure>
+
+		<figure>
+			<img src="images/satellite.jpg" />
+			<figcaption>This is an image of a Satellite</figcaption>
+		</figure>
+	</div>
+</body>
+</html>

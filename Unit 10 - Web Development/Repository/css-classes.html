@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSS Classes</title>
+
+	<style>
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 20px;
+			justify-content: center;
+			color: #f5679a;
+			border: 2px solid brown;
+			background-color: #9a67f5;
+		}
+
+		div a:hover {
+			font-size: 100px;
+			color: red;
+			text-decoration: none;
+		}
+	
+		div h1:hover {
+			text-shadow: 2px 2px 3px red;	
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<h1>This is my first heading</h1>
+		<h1>This is my second heading</h1>
+		<h1>This is my third heading</h1>
+		<h1>This is my fourth heading</h1>
+	</div>
+
+	<div class="container">
+		<a href="https://www.google.com">Google</a>
+		<a href="https://www.facebook.com">Facebook</a>
+		<a href="https://www.youtube.com">YouTube</a>
+		<a href="https://www.instagram.com">Instagram</a>
+	</div>
+</body>
+</html>

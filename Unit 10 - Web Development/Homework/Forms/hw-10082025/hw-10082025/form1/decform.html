@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Form</title>
+</head>
+
+
+<body>
+
+	<form action="# " method="get">
+		<label for="fname">Full Name: </label>
+		<input type="text" id="fname" name="fname" placeholder="Enter your full name"/> 		
+			<br/>
+				
+		<label for="nic">Nic: </label>
+		<input type="text" id="nic" name="nic" placeholder="Enter your nic"/> 			
+			<br/>
+
+		<fieldset>
+			<legend> Preferred Contact</legend>
+			<label><input type="radio" id="call" name="contact" value="call"/>Call</label> <br/>
+			<label><input type="radio" id="mail" name="contact" value="mail"/>Email</label> <br/>
+			<label><input type="radio" id="whatsapp" name="contact" value="whatsapp"/>WhatsApp</label> <br/>
+		</fieldset>
+
+
+		<fieldset>
+			<legend>Preferred Subjects</legend>
+			<label><input type="checkbox" id="html"   name="subject[]"   value="html"/> HTML</label>
+			<label><input type="checkbox" id="python" name="subject[]" value="python"/> Python</label>
+			<label><input type="checkbox" id="sql"    name="subject[]"    value="sql"/> SQL</label>
+			<label><input type="checkbox" id="css"    name="subject[]"    value="css"/> CSS</label>
+
+		</fieldset>
+
+		<input type="submit" id="submit" value="Submit" />
+	</form>
+
+</body>
+
+</html>
